@@ -1,6 +1,13 @@
-sidux-art-wallpaper-nyx-edu (0.1.0) UNRELEASED; urgency=low
+sidux-art-wallpaper-nyx-edu (0.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Dinko Sabo ]
   * Initial release
+  * updated 1920x1200 version
+  * added code for source svg to png conversion
+  * minor fixes
 
- -- Dinko Sabo <cobra@sidux.com>  Sun, 24 Feb 2008 09:20:12 +0100
+  [ Stefan Lippers-Hollmann ]
+  * fix and refine dependency relations.
+  * update package.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Mar 2008 01:05:48 +0100
