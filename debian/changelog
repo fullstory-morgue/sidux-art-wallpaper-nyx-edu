@@ -10,5 +10,6 @@ sidux-art-wallpaper-nyx-edu (0.1) unstable; urgency=low
   * fix and refine dependency relations.
   * update package.
   * *.svg should never be executable.
+  * debian/rules is a Makefile, which means it is sensitive to white space.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Mar 2008 01:07:28 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Mar 2008 01:08:22 +0100
