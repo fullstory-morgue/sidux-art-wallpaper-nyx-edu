@@ -1,6 +1,7 @@
-sidux-art-wallpaper-nyx-edu (0.3) UNRELEASED; urgency=low
+sidux-art-wallpaper-nyx-edu (0.3) unstable; urgency=low
 
-  * applied new seminarix-logo to wallpapers, icons are now visible on Desktop (freeze)
+  * applied new seminarix-logo to wallpapers, icons are now visible on 
+    Desktop (freeze).
 
  -- Dinko Sabo <cobra@sidux.com>  Fri, 14 Mar 2008 05:30:58 +0100
 
