@@ -1,10 +1,6 @@
-sidux-art-wallpaper-nyx-edu (0.4) UNRELEASED; urgency=low
+sidux-art-wallpaper-nyx-edu (0.4) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
-  * corrected incscape errors
+  * corrected inkscape errors
 
  -- Ferdinand Thommes <devil@sidux.com>  Mon, 17 Mar 2008 14:49:56 +0100
 
@@ -14,12 +10,6 @@ sidux-art-wallpaper-nyx-edu (0.3) unstable; urgency=low
     Desktop (freeze).
 
  -- Dinko Sabo <cobra@sidux.com>  Fri, 14 Mar 2008 05:30:58 +0100
-
-sidux-art-wallpaper-nyx-edu (0.2) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Mar 2008 01:14:42 +0100
 
 sidux-art-wallpaper-nyx-edu (0.1) unstable; urgency=low
 
