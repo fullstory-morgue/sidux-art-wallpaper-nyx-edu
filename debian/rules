@@ -1,8 +1,10 @@
 #!/usr/bin/make -f
-  
-include /usr/share/cdbs/1/rules/debhelper.mk
 
-build/$(DEB_SOURCE_PACKAGE)::
+%:
+	dh $@
+
+build:
+	dh build --until auto_build
 	# requires inkscape to be installed
 	@if [ ! -x /usr/bin/inkscape ]; then \
 		echo "ERROR: inkscape not installed!" ; \
@@ -14,19 +16,24 @@ build/$(DEB_SOURCE_PACKAGE)::
 		--export-height=1024 \
 		--export-png="$(CURDIR)/sidux-nyx-1280x1024.png" \
 			"$(CURDIR)/sidux-nyx-1280x1024.svg" ;
+	test -r "$(CURDIR)/sidux-nyx-1280x1024.png"
 	
 	# create 1600x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1600 \
 		--export-height=1200 \
 		--export-png="$(CURDIR)/sidux-nyx-1600x1200.png" \
 			"$(CURDIR)/sidux-nyx-1600x1200.svg" ;
+	test -r "$(CURDIR)/sidux-nyx-1600x1200.png"
 	
 	# create 1920x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1920 \
 		--export-height=1200 \
 		--export-png="$(CURDIR)/sidux-nyx-1920x1200.png" \
 			"$(CURDIR)/sidux-nyx-1920x1200.svg" ;
+	test -r "$(CURDIR)/sidux-nyx-1920x1200.png"
+	dh build --remaining
 
-clean::
+clean:
+	dh clean --before clean
 	rm -f "$(CURDIR)/sidux-nyx-[0-9]*x[0-9]*.png"
-
+	dh clean --remaining
