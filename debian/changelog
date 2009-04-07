@@ -1,9 +1,5 @@
 sidux-art-wallpaper-nyx-edu (0.8) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Michiel de Boer ]
   * Copied postinst from sidux-art-wallpaper-nyx here
 
  -- Michiel de Boer <locsmif@sidux.com>  Tue, 07 Apr 2009 05:55:27 +0200
