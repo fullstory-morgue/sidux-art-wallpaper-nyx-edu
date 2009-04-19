@@ -1,8 +1,9 @@
-sidux-art-wallpaper-nyx-edu (0.9) UNRELEASED; urgency=low
+sidux-art-wallpaper-nyx-edu (0.9) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE, moved to sidux-art-legacy.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 07 Apr 2009 20:00:33 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Apr 2009 14:03:50 +0200
 
 sidux-art-wallpaper-nyx-edu (0.8) unstable; urgency=low
 
